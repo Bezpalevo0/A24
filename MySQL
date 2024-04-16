@@ -1,0 +1,11 @@
+CREATE TABLE MyGuests (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  firstname CHAR(50) NOT NULL,
+  lastname CHAR(50) NOT NULL,
+  city CHAR(50) NOT NULL,
+  street CHAR(50) NOT NULL,
+  streetnumber INT UNSIGNED NOT NULL
+);
+
+INSERT INTO MyGuests VALUES(NULL, 'John', 'Smith', 'London', 'East Street', 48);
+INSERT INTO MyGuests VALUES(NULL, 'Mandy', 'Jones', 'Liverpool', 'Gaston Rd', 256);
